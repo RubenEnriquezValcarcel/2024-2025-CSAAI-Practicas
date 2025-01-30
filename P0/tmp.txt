@@ -1,0 +1,2 @@
+Este es un fichero que vamos a borrar
+Para aprender a eliminar ficheros del repositorio
