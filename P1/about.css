@@ -1,7 +1,10 @@
 /*cambios globales*/
 *{
     box-sizing: border-box;
+    font-family: 'Gochi Hand', cursive;
   }
+
+
 
 /*cambios en clases*/
 .columna {
