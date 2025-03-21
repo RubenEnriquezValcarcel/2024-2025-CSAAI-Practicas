@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡BOOM!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <h1>¡BOOM!</h1>
+
+        <div id="clave">
+            <span class="secreto">*</span>
+            <span class="secreto">*</span>
+            <span class="secreto">*</span>
+            <span class="secreto">*</span>
+        </div>
+
+        <div id="intentos">Intentos restantes: 10</div>
+        <div id="cronometro">Tiempo: 00:00</div>
+
+        <div id="botones">
+
+            <div class="numeros">
+                <button class="num" data-num="0">0</button>
+                <button class="num" data-num="1">1</button>
+                <button class="num" data-num="2">2</button>
+                <button class="num" data-num="3">3</button>
+                <button class="num" data-num="4">4</button>
+                <button class="num" data-num="5">5</button>
+                <button class="num" data-num="6">6</button>
+                <button class="num" data-num="7">7</button>
+                <button class="num" data-num="8">8</button>
+                <button class="num" data-num="9">9</button>
+            </div>
+
+            <div class="controles">
+                <button id="start">Start</button>
+                <button id="stop">Stop</button>
+                <button id="reset">Reset</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Archivos de sonido -->
+    <audio id="sonidoGanar" src="ganar.mp3"></audio>
+    <audio id="sonidoPerder" src="perder.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
