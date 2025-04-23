@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory</title> 
+    <link rel="stylesheet" href="memory.css">
+    <script src="memory-game.js" defer></script>
+</head>
+<body>
+    <div class="game"> 
+        <div class="controles">
+            <div class="configuracion">
+                <select id="tamanio">
+                    <option value="2">2x2</option>
+                    <option value="4" selected>4x4</option>
+                    <option value="6">6x6</option>
+                </select>
+                <button id="comenzar">Comenzar</button>
+                <button id="reiniciar">Reiniciar</button>
+            </div>
+            <div class="display">
+                <div class="movimientos">0 movimientos</div>
+                <div class="timer">tiempo: 0 sec</div>
+            </div>
+        </div>
+        <div class="tablero" grid-dimension="4">
+            <!-- Cartas generadas por JS -->
+        </div>
+        <div class="win"></div>
+    </div>
+</body>
+</html>
