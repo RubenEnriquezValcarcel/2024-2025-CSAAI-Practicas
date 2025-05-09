@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulación de envío de paquetes de datos</title>
+
+    <link rel="stylesheet" href="net.css">
+
+    <script src="net-06.js" defer></script>
+
+</head> 
+<body> 
+    <div class="controls">
+        <div>
+            <button id="btnCNet">Generar Red</button>
+            <button id="btnMinPath">Calcular ruta</button>
+        </div>
+        <div class="status-info">
+            <div class="status-line">Nodos: <span id="nodeCount">0</span></div>
+            <div class="status-line">Tiempo total: <span id="totalTime">0</span></div>
+            <div id="networkStatus">La red no está generada aún. Por favor genere la red.</div>
+        </div>
+    </div>
+    
+    <canvas id="networkCanvas" width="1200" height="500"></canvas>
+</body>
+</html>
